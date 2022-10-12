@@ -1,0 +1,17 @@
+spring:
+#  h2:
+#    console:
+#      enabled: true
+  jpa:
+    show-sql: true
+#    generate-ddl: true
+#    hibernate:
+#      ddl-auto: create
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/fs13prod"
+    username: "postgres"
+    password: "pg123456"
+
+  liquibase:
+    enabled: true
+    change-log: classpath:/db/changelog/master.yaml

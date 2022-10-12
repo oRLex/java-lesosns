@@ -1,0 +1,1 @@
+insert into a(a1, a2) values (1, 'haha')

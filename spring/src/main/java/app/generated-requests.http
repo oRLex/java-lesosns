@@ -1,0 +1,49 @@
+###
+GET http://localhost:8080/person
+
+###
+GET http://localhost:8080/person/1
+
+###
+GET http://localhost:8080/person/f1/1
+
+###
+GET http://localhost:8080/person/f2/1
+
+###
+GET http://localhost:8080/person/g1/1
+
+###
+GET http://localhost:8080/person/g2/1
+
+###
+GET http://localhost:8080/person/h1/1
+
+###
+GET http://localhost:8080/person/h2/1
+
+###
+GET http://localhost:8080/phone
+
+#########################################
+###
+POST http://localhost:8080/person
+Content-Type: application/json
+
+{
+  "id": 40000,
+  "name": "Alex1"
+}
+
+###
+PUT http://localhost:8080/person
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "Alex1"
+}
+
+###
+DELETE http://localhost:8080/person/3
+

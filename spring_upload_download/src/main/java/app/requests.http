@@ -1,0 +1,36 @@
+###
+GET http://localhost:8080/files/1.txt
+
+###
+GET http://localhost:8080/person/die
+
+###
+GET http://localhost:8080/person
+
+###
+POST http://localhost:8080/person
+Content-Type: application/json
+
+{
+  "id": 40000,
+  "name": "Alex1"
+}
+
+###
+PUT http://localhost:8080/person
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "Alex1"
+}
+
+###
+DELETE http://localhost:8080/person/3
+
+###
+GET http://localhost:8080/person/1
+
+###
+GET http://localhost:8080/person/cookie
+Cookie: XID=F119

@@ -1,0 +1,19 @@
+databaseChangeLog:
+- changeSet:
+    id: 1628794434453-1
+    author: alexr (generated)
+    changes:
+    - createTable:
+        columns:
+        - column:
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: groups_pk
+            name: in
+            type: INTEGER
+        - column:
+            name: name
+            type: INTEGER
+        tableName: groups
+

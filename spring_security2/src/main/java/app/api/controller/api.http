@@ -1,0 +1,6 @@
+###
+GET http://localhost:8080/api/home
+
+###
+GET http://localhost:8080/api/home
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMDAiLCJpYXQiOjE2MzAxNDQ2NzUsImV4cCI6MTYzMDc0OTQ3NX0.RQsN-Vf095c5ekc6PQU2x-WNhIlt0ooMxpxDWxdx7KjehS8E2rD6x3HuXGk2LOcK2R7NgVfvExOUti26cxO0hQ

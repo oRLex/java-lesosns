@@ -1,0 +1,19 @@
+### Send POST request with json body
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "username": 100,
+  "password": "123",
+  "remember": true
+}
+
+### Send POST request with json body
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "username": 100,
+  "password": "12345",
+  "remember": true
+}

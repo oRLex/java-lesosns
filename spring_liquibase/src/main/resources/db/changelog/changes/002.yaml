@@ -1,0 +1,19 @@
+databaseChangeLog:
+- changeSet:
+    id: 1628794026568-2
+    author: alexr (generated)
+    changes:
+    - addPrimaryKey:
+        columnNames: id
+        constraintName: user_pk
+        tableName: user
+- changeSet:
+    id: 1628794026568-1
+    author: alexr (generated)
+    changes:
+    - addNotNullConstraint:
+        columnDataType: int
+        columnName: id
+        tableName: user
+        validate: true
+

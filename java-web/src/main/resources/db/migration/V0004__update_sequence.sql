@@ -1,0 +1,1 @@
+SELECT setval('groupp_id_seq', (select max(id) from groupp));

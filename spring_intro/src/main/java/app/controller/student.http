@@ -1,0 +1,43 @@
+###
+GET http://localhost:8081/student
+
+###
+GET http://localhost:8081/student/byname?part=Jim
+
+###
+GET http://localhost:8081/student/2
+###
+GET http://localhost:8081/student/99
+
+###
+POST http://localhost:8081/student
+Content-Type: application/json
+
+{
+  "name": "Jim"
+}
+
+###
+POST http://localhost:8081/student
+Content-Type: application/json
+
+{
+  "name": "Jimmy"
+}
+
+###
+POST http://localhost:8081/student
+Content-Type: application/json
+
+{
+  "name": "Jackson"
+}
+
+###
+PUT http://localhost:8081/student/0
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "SERGIO"
+}

@@ -1,0 +1,18 @@
+# production db
+url: jdbc:postgresql://localhost:5432/fs13prod
+username: postgres
+password: pg123456
+
+# development db
+referenceUrl: jdbc:postgresql://localhost:5432/fs13dev
+referenceUsername: postgres
+referencePassword: pg123456
+
+# for working. CURRENT list of all deltas
+changeLogFile: src/main/resources/db/changelog/master.yaml
+
+# for grabbing FIRST database state
+outputChangeLogFile: src/main/resources/db/changelog/master0.yaml
+
+# for difference
+diffChangeLogFile: src/main/resources/db/changelog/changes/diff.yaml
